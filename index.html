@@ -1,42 +1,315 @@
-<!DOCTYPE html>
-<html lang="hu">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Antal Szabolcs – Önéletrajz</title>
-  <style>
-    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 16px; line-height: 1.6; color: #1d2433; }
-    h1 { margin-bottom: 0; }
-    .role { color: #0e7c6b; font-weight: 600; margin-top: 4px; }
-    h2 { border-bottom: 2px solid #e3e7ef; padding-bottom: 4px; margin-top: 32px; }
-    .item b { display: block; }
-    .item span { color: #5a6478; }
-  </style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="abstract" content="Antal Szabolcs | Computer Science Student | Resume | Curriculum Vitae" />
+<meta name="description" content="Antal Szabolcs | Computer Science Student | Curriculum Vitae | CV" />
+<meta name="keywords" content="Antal Szabolcs, Computer Science, UMFST, Software Development, Web Development, Game Development, Reghin, Mures" />
+<meta name="reply-to" content="antalszabiii@gmail.com" />
+<meta name="doc-rights" content="Personal CV" />
+<meta name="RESOURCE-TYPE" content="DOCUMENT" />
+<meta name="DISTRIBUTION" content="GLOBAL" />
+<meta name="AUTHOR" content="Antal Szabolcs" />
+<meta name="ROBOTS" content="INDEX, FOLLOW" />
+<meta name="RATING" content="GENERAL" />
+
+<title>Antal Szabolcs | CV | RESUME | CURRICULUM VITAE</title>
+<link rel="shortcut icon" type="image/ico" href="img/favicon.jpg" />	
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960_24_col.css" />
+<link rel="stylesheet" href="css/sytles.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/scroll-startstop.events.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.tips.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+  
+  
+  
+
+<script type="text/javascript">
+$("document").ready(function (){ 
+    $('.progress_container > div').each(function() {
+        var $bar = $(this);
+        var percent = $bar.attr('title');
+        if (percent) {
+            $bar.animate({width: percent}, 1100);
+        }
+    });
+    
+    //activate tooltip
+    if ($.fn.tipsy) {
+        $('.tip').tipsy({gravity: 's', fade: true});
+    }
+});
+</script>
+
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+	
+<script type='text/javascript'>
+$(document).ready(function(){
+$("#gallery img").fadeTo("fast", 0.8);
+$("#gallery img").hover(function(){
+$(this).fadeTo("fast", 1.0);
+},function(){
+$(this).fadeTo("fast", 0.8);
+});
+});
+</script>
+			
+		<script type="text/javascript">
+			$(function() {
+				var $elem = $('.container_24');
+				
+				$('#nav_up').fadeIn('slow');
+				$('#nav_down').fadeIn('slow');  
+				
+				$(window).bind('scrollstart', function(){
+					$('#nav_up,#nav_down').stop().animate({'opacity':'0.2'});
+				});
+				$(window).bind('scrollstop', function(){
+					$('#nav_up,#nav_down').stop().animate({'opacity':'1'});
+				});
+				
+				$('#nav_down').click(
+					function (e) {
+						$('html, body').animate({scrollTop: $elem.height()}, 800);
+					}
+				);
+				$('#nav_up').click(
+					function (e) {
+						$('html, body').animate({scrollTop: '0px'}, 800);
+					}
+				);
+            });
+        </script>
+
 </head>
 <body>
-  <h1>Antal Szabolcs</h1>
-  <p class="role">Informatika szakos hallgató · Marosvasarhely</p>
-  <p>E-mail: antalszabiii@gmail.com · <a href="https://github.com/ydk002">GitHub</a></p>
 
-  <h2>Rólam</h2>
-  <p>Harmadéves hallgató vagyok, webfejlesztés és adatelemzés érdekel. Gyakornoki helyet keresek.</p>
 
-  <h2>Tanulmányok</h2>
-  <div class="item"><b>Programtervező informatikus BSc</b><span>Egyetem neve · 2024–</span></div>
+    <div id="header"><!-- Header -->
+    </div><!-- End Header -->
+<div class="container_24">
 
-  <h2>Tapasztalat</h2>
-  <div class="item"><b>Diákmunka – IT támogatás</b><span>Cég neve · 2025 nyár</span></div>
+<div class="grid_1"><div class="holder"></div></div>
+<!-- TITLE -->
+     <div class="grid_9"><!-- Title -->
+         <div id="name_tittle">
+          <h1>Antal Szabolcs</h1>
+          <ul>
+          <li>Computer Science Student</li>
+          </ul>
+	</div>
+</div>
 
-  <h2>Készségek</h2>
-  <ul>
-    <li>HTML, CSS, JavaScript</li>
-    <li>Python, SQL</li>
-    <li>Angol: B2</li>
-  </ul>
 
-  <h2>Projektek</h2>
-  <ul>
-    <li><a href="https://github.com/kovacsanna">Projekt neve</a> – egy mondat arról, mit csinál.</li>
-  </ul>
+<div class="grid_3"><div class="holder"></div></div>
+<div class="grid_1"><div class="holder"></div></div>
+<div class="icon_list">
+   
+<!-- CONTACT LIST -->
+    <div class="grid_7">
+        <div class="work_list">
+
+		<h1>AVAILABLE FOR :</h1>
+         <h3>INTERNSHIPS, JUNIOR DEVELOPER ROLES</h3>
+
+         <h2>Email</h2>
+         <ul><li><a href="mailto:antalszabiii@gmail.com">antalszabiii@gmail.com</a></li></ul>
+         <h2>Location</h2>
+         <ul><li>Reghin, Județul Mureș, Romania</li></ul>
+         <h2>Website / GitHub</h2>
+         <ul>
+			<li>
+				<a target="_blank" title="Personal Website / GitHub" href="https://ydk002.github.io">ydk002.github.io</a>
+			</li>
+		 </ul>
+         
+        </div>
+    </div>
+<div class="grid_1"><div class="holder"></div></div>
+<div class="clear"></div>
+
+<!-- End Header -->
+
+<!-- CONTENT -->
+<div class="grid_1"><div class="holder"></div></div>
+
+<!--PERSONAL STATEMENT -->
+<div class="grid_10">
+    <div class="ribbon2">Personal Statement</div>
+         <img class="floatLeft" src="img/avatar.jpg" alt="Antal Szabolcs" />
+		 <div class="item">
+         <p>
+		I like computers and challenges. I do not stop at failure nor when I'm tired, I only stop when I finish what I started.
+		 </p>
+		</div><!--AVATAR -->
+ 
+ <div class="ribbon2">Summary</div>
+    <div class="item"><p> Computer Science undergraduate student with a strong passion for software engineering, web development, and game development. Focused on mastering foundational concepts, algorithms, and practical programming skills:	         
+ </p> </div>
+
+  <div class="grid_10">
+		<div class="why_me">
+			<ul>
+				<li>Web Development (HTML, CSS, Modern Web Technologies)</li>
+				<li>Game Development & Interactive Systems</li>
+				<li>Object-Oriented Programming (C++, Java)</li>
+				<li>Algorithms & System Problem Solving (C / C++)</li>
+                <li>Relational Databases & SQL</li>
+		    </ul>
+        </div>
+	</div>
+  
+   
+  <div class="grid_10"><br><br></div>  
+ <div class="item"><p><b>Specialties & Focus</b>: Web Development » Game Development » Problem Solving » Algorithms » Object-Oriented Programming » C » C++ » Java » SQL » HTML/CSS	         
+ </p> </div> 
+  
+    <div class="ribbon2">Education</div>
+	<div class="item_tittle">
+		<h1><a target="_blank" title="George Emil Palade University of Medicine, Pharmacy, Science, and Technology of Târgu Mureș" href="https://umfst.ro">UMFST G.E. Palade Târgu Mureș</a><span>In Progress</span></h1>
+		<h2>Computer Science | Târgu Mureș, Romania</h2>
+		<div class="item"><p> <b>Bachelor of Science (BSc)</b> | Computer Science (Informatics) | Ongoing Undergraduate Degree</p></div>
+	</div>
+
+      <div class="grid_10">
+		<div class="ribbon2">Languages</div><div class="why_me">
+		  <ul>
+			  <li><b>Hungarian</b> (Native)</li>
+			  <li><b>Romanian</b> (Native / Bilingual)</li>
+			  <li><b>English</b> (Proficient)</li>
+			  <li><b>Japanese</b> (Fundamentals)</li>
+		  </ul>
+        </div>
+	  </div>
+         
+		 <div class="grid_10">
+		<div class="ribbon2">Interests & Hobbies</div><div class="why_me">
+			 <ul>
+				 <li>Gaming & Game Mechanics</li>
+				 <li>Sports & Fitness</li>
+				 <li>Running</li>
+				 <li>Anime</li>
+			 </ul>
+		 </div>
+		</div>
+
+		 
+</div>
+<div class="grid_2"><div class="vertical_line"></div></div>
+
+
+<div class="grid_10"><!--RIGHT -->
+    <div class="ribbon2">Technical Skills</div>
+	 <div id="technical_skill">
+          <div id="skill_list2"><ul>
+		    <li>C / C++</li>
+			<li>Java</li>
+			<li>SQL</li>
+			<li>HTML / CSS</li>
+			<li>Problem Solving</li>
+			<li>Algorithms</li>
+		 </ul></div>
+		<div id="skill_set"><!--PROGRESS BAR-->
+             <ul>
+              <li><div class="progress_container">
+             <div class="cms tip" title="80%"></div>
+             </div></li>
+			 
+			  <li><div class="progress_container">
+             <div class="seo tip" title="75%"></div>
+             </div></li>
+			 
+			 <li><div class="progress_container">
+             <div class="php tip" title="70%"></div>
+             </div></li>
+			 
+			 <li><div class="progress_container">
+             <div class="html tip" title="65%"></div>
+             </div></li>
+
+			 <li><div class="progress_container">
+             <div class="css tip" title="85%"></div>
+             </div></li>
+
+             <li><div class="progress_container">
+             <div class="progress_bar tip" title="75%"></div>
+             </div></li>
+			 </ul>
+            </div>
+			</div>
+
+    <div class="ribbon2">Experience & Projects</div>
+
+	<div class="item_tittle"> 
+      <h1>Academic & Personal Projects <span>Current</span></h1>
+      <h2>Junior Developer / Student Projects | Târgu Mureș, Romania</h2></div>
+     <div class="item"><p>Actively developing coursework applications, practicing data structures and algorithms, and experimenting with web and game development. Seeking junior developer roles and internship opportunities to apply practical coding skills in professional software teams.</p></div>
+
+</div>
+
+
+<div class="grid_1"><div class="holder"></div></div>
+<div class="clear"></div>
+
+
+<div class="grid_24"><div class="horisontal_line"></div></div>
+<div class="grid_1"><div class="holder"></div></div>
+  
+        <div class="grid_10">
+		    <div class="ribbon2">Why We Should Work Together</div><div class="why_me">
+		           <ul>
+                    <li>Deep passion for computers, technology, and building software</li>
+                    <li>Persistent drive: "I only stop when I finish what I started"</li>
+                    <li>Strong foundation in computer science and algorithmic thinking</li>
+                    <li>Eager lifelong learner who quickly absorbs new programming tools</li>
+                    <li>Team player with clear communication and dedication to deadlines</li>
+		           </ul>
+            </div>
+		</div>
+		
+<div class="grid_2"><div class="vertical_line2"></div></div>
+    <div class="grid_10">		
+		    <div class="ribbon2">Contact Info</div>
+
+	    <div class="item_tittle"> 
+        <h1></h1>
+        <h2>Get in Touch</h2></div>
+        
+        <div class="work_list" style="float:none; margin: 10px 0 0 0; text-align: left;">
+            <h2>Email</h2>
+            <ul><li><a href="mailto:antalszabiii@gmail.com">antalszabiii@gmail.com</a></li></ul>
+            <h2>Location</h2>
+            <ul><li>Reghin, Județul Mureș, Romania</li></ul>
+            <h2>Personal Website / GitHub</h2>
+            <ul><li><a target="_blank" href="https://ydk002.github.io">ydk002.github.io</a></li></ul>
+            <h2>University</h2>
+            <ul><li>UMFST G.E. Palade Târgu Mureș</li></ul>
+        </div>
+			
+		<div style="clear: both;"></div>
+	</div>
+
+	 
+<div class="grid_1"><div class="holder"></div></div>
+<div class="grid_24"><div class="horisontal_line"></div></div>	
+
+</div>
+</div><!-- END .CONTAINER_24 -->
+
+<div style="display:none;" class="nav_up" id="nav_up"></div>
+<div style="display:none;" class="nav_down" id="nav_down"></div>
 </body>
+
 </html>
