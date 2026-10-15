@@ -782,3 +782,135 @@ label {
 	opacity: 1 !important;
 	transform: translateY(-2px);
 }
+
+/* ========================================================
+   FORM STATUS NOTIFICATIONS & SPINNER
+   ======================================================== */
+.form-status {
+	margin-top: 15px;
+	padding: 10px 14px;
+	border-radius: 6px;
+	font-size: 13px;
+	display: none;
+	clear: both;
+	animation: fadeIn 0.3s ease;
+}
+
+.form-success {
+	background-color: #d1fae5;
+	color: #065f46;
+	border: 1px solid #a7f3d0;
+	display: block;
+}
+
+.form-error {
+	background-color: #fee2e2;
+	color: #991b1b;
+	border: 1px solid #fecaca;
+	display: block;
+}
+
+.form-loading {
+	background-color: #e0f2fe;
+	color: #075985;
+	border: 1px solid #bae6fd;
+	display: block;
+}
+
+/* ========================================================
+   TYPEWRITER ANIMATION
+   ======================================================== */
+.typewriter-cursor {
+	display: inline-block;
+	color: #10b981;
+	font-weight: 400;
+	animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0; }
+}
+
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(-5px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================================================
+   RESPONSIVE DESIGN (MOBILE & TABLET SUPPORT)
+   ======================================================== */
+@media screen and (max-width: 980px) {
+	body {
+		min-width: 100%;
+		padding: 10px;
+	}
+
+	.container_24 {
+		width: 100% !important;
+		margin: 0 auto;
+	}
+
+	#header {
+		width: 100% !important;
+		background-size: cover;
+	}
+
+	.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6,
+	.grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12,
+	.grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18,
+	.grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24 {
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		float: none !important;
+	}
+
+	.vertical_line, .vertical_line2 {
+		display: none;
+	}
+
+	.horisontal_line {
+		width: 95% !important;
+	}
+
+	.work_list {
+		margin: 0 !important;
+		text-align: left !important;
+	}
+
+	.work_list h1, .work_list h2, .work_list h3 {
+		margin-left: 0 !important;
+		width: 100% !important;
+	}
+
+	.work_list li {
+		width: 100% !important;
+	}
+
+	.ribbon, .ribbon2, .ribbon_portfolio {
+		width: 100% !important;
+	}
+
+	#contact-area {
+		width: 100% !important;
+	}
+
+	#contact-area input, #contact-area textarea {
+		width: 90% !important;
+	}
+
+	.progress_container {
+		margin-left: 10px !important;
+		width: 90% !important;
+	}
+
+	#gallery {
+		width: 100% !important;
+		text-align: center;
+	}
+
+	#gallery ul li {
+		margin: 8px 4px;
+	}
+}
